@@ -1,0 +1,326 @@
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"04:29:20"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"04:29:20"}
+{"level":"info","message":"  Model    : ibm/granite-13b-instruct-v2","timestamp":"04:29:20"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"04:29:20"}
+{"level":"error","message":"Blueprint generation failed: IBM watsonx.ai connectivity failed: Cannot reach IBM watsonx.ai: AxiosError: Request failed with status code 404\nCheck your WATSONX_API_KEY and WATSONX_PROJECT_ID in .env","timestamp":"04:29:23"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"04:42:32"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"04:42:32"}
+{"level":"info","message":"  Model    : ibm/granite-13b-instruct-v2","timestamp":"04:42:32"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"04:42:32"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"04:42:34"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"04:42:34"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"04:42:34"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"04:42:34"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"04:42:34"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"04:42:34"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai platform to help small business\"\n","timestamp":"04:42:34"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"04:42:34"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"04:42:34"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"04:42:34"}
+{"level":"error","message":"watsonx.ai generation error: HTTP 404 — {\"errors\":[{\"code\":\"model_not_supported\",\"message\":\"Model 'ibm/granite-13b-instruct-v2' was not found. This model may be unsupported, deprecated, or removed.\",\"more_info\":\"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation\"}],\"trace\":\"fcbc1897c73563aa38c593e9b26b4ed1\",\"status_code\":404}","timestamp":"04:42:35"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"05:01:38"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"05:01:38"}
+{"level":"info","message":"  Model    : ibm/granite-13b-instruct-v2","timestamp":"05:01:38"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"05:01:38"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"05:01:39"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"05:01:39"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"05:01:39"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"05:01:39"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"05:01:39"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"05:01:39"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai platorms to helo small business\"\n","timestamp":"05:01:39"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"05:01:39"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"05:01:40"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"05:01:40"}
+{"level":"error","message":"watsonx.ai generation error: HTTP 404 — {\"errors\":[{\"code\":\"model_not_supported\",\"message\":\"Model 'ibm/granite-13b-instruct-v2' was not found. This model may be unsupported, deprecated, or removed.\",\"more_info\":\"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation\"}],\"trace\":\"0bb9cab79205708a901ac9297a74dec5\",\"status_code\":404}","timestamp":"05:01:41"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"05:09:56"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"05:09:56"}
+{"level":"info","message":"  Model    : ibm/granite-13b-instruct-v2","timestamp":"05:09:56"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"05:09:56"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"05:09:58"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"05:09:58"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"05:09:58"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"05:09:58"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"05:09:58"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"05:09:58"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai platform to help small business\"\n","timestamp":"05:09:58"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"05:09:58"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"05:09:58"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"05:09:58"}
+{"level":"error","message":"watsonx.ai generation error: HTTP 404 — {\"errors\":[{\"code\":\"model_not_supported\",\"message\":\"Model 'ibm/granite-13b-instruct-v2' was not found. This model may be unsupported, deprecated, or removed.\",\"more_info\":\"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation\"}],\"trace\":\"12d988d6c630f51e3a081616c2852a9c\",\"status_code\":404}","timestamp":"05:09:58"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"10:17:01"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"10:17:01"}
+{"level":"info","message":"  Model    : ibm/granite-3-8b-instruct","timestamp":"10:17:01"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"10:17:01"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"10:17:02"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"10:17:02"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"10:17:02"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"10:17:02"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"10:17:02"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"10:17:02"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai startup for students\"\n","timestamp":"10:17:02"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"10:17:02"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"10:17:03"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"10:17:03"}
+{"level":"error","message":"watsonx.ai generation error: HTTP 404 — {\"errors\":[{\"code\":\"model_not_supported\",\"message\":\"Model 'ibm/granite-3-8b-instruct' was not found. This model may be unsupported, deprecated, or removed.\",\"more_info\":\"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation\"}],\"trace\":\"fb053406cf2e5e26f91a8608cd79cdd5\",\"status_code\":404}","timestamp":"10:17:03"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"10:57:54"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"10:57:54"}
+{"level":"info","message":"  Model    : ibm/granite-3-8b-instruct","timestamp":"10:57:54"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"10:57:54"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"10:57:56"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"10:57:56"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"10:57:56"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"10:57:56"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"10:57:56"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"10:57:56"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"build ai startup for small business\"\n","timestamp":"10:57:56"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"10:57:56"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"10:57:57"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"10:57:57"}
+{"level":"error","message":"watsonx.ai generation error: HTTP 404 — {\"errors\":[{\"code\":\"model_not_supported\",\"message\":\"Model 'ibm/granite-3-8b-instruct' was not found. This model may be unsupported, deprecated, or removed.\",\"more_info\":\"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation\"}],\"trace\":\"d05934881f4bc59710d59d602b50c6f8\",\"status_code\":404}","timestamp":"10:57:57"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"11:08:28"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"11:08:28"}
+{"level":"info","message":"  Model    : ibm/granite-3-8b-instruct","timestamp":"11:08:28"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"11:08:28"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"11:08:31"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"11:08:31"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"11:08:31"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"11:08:31"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"11:08:31"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"11:08:31"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai starup for small eaope\"\n","timestamp":"11:08:31"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"11:08:31"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:08:31"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:08:32"}
+{"level":"error","message":"watsonx.ai generation error: HTTP 404 — {\"errors\":[{\"code\":\"model_not_supported\",\"message\":\"Model 'ibm/granite-3-8b-instruct' was not found. This model may be unsupported, deprecated, or removed.\",\"more_info\":\"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation\"}],\"trace\":\"8d03679abf1d447174b8838a63936599\",\"status_code\":404}","timestamp":"11:08:32"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"11:14:28"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"11:14:28"}
+{"level":"info","message":"  Model    : meta-llama/llama-3-1-8b","timestamp":"11:14:28"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"11:14:28"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"11:14:30"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"11:14:30"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"11:14:30"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"11:14:30"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"11:14:30"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"11:14:30"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai startu fro small people\"\n","timestamp":"11:14:30"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"11:14:30"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:14:31"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:14:31"}
+{"level":"error","message":"watsonx.ai generation error: HTTP 400 — {\"errors\":[{\"code\":\"model_no_support_for_function\",\"message\":\"Model 'meta-llama/llama-3-1-8b' does not support function 'function_text_generation'\",\"more_info\":\"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation\"}],\"trace\":\"b67f30043246ef9841ebc76331ff8862\",\"status_code\":400}","timestamp":"11:14:31"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"11:17:14"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"11:17:14"}
+{"level":"info","message":"  Model    : meta-llama/llama-3-3-70b-instruct","timestamp":"11:17:14"}
+{"level":"info","message":"  RAG Mode : Watson Discovery","timestamp":"11:17:14"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"11:17:16"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"11:17:16"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"11:17:16"}
+{"level":"info","message":"Watson Discovery client configured — will use for production retrieval.","timestamp":"11:17:16"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"11:17:16"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"11:17:16"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai startup for small peaople\"\n","timestamp":"11:17:16"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"11:17:16"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:17:17"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:17:17"}
+{"level":"info","message":"Section \"Executive Summary\" generated — 369 words in 9467ms","timestamp":"11:17:26"}
+{"level":"info","message":"Generating section: Business Model Canvas","timestamp":"11:17:26"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:17:26"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:17:26"}
+{"level":"info","message":"Section \"Business Model Canvas\" generated — 450 words in 11538ms","timestamp":"11:17:37"}
+{"level":"info","message":"Generating section: Target Market Analysis","timestamp":"11:17:37"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:17:38"}
+{"level":"info","message":"Section \"Target Market Analysis\" generated — 715 words in 17596ms","timestamp":"11:17:55"}
+{"level":"info","message":"Generating section: Competitor Analysis","timestamp":"11:17:55"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:17:55"}
+{"level":"info","message":"Section \"Competitor Analysis\" generated — 740 words in 17202ms","timestamp":"11:18:12"}
+{"level":"info","message":"Generating section: Revenue Model","timestamp":"11:18:12"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:18:13"}
+{"level":"info","message":"Section \"Revenue Model\" generated — 577 words in 15724ms","timestamp":"11:18:28"}
+{"level":"info","message":"Generating section: Estimated Budget & Financial Projections","timestamp":"11:18:28"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:18:29"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:18:29"}
+{"level":"info","message":"Section \"Estimated Budget & Financial Projections\" generated — 724 words in 21743ms","timestamp":"11:18:49"}
+{"level":"info","message":"Generating section: Go-to-Market Strategy","timestamp":"11:18:49"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 503","timestamp":"11:19:17"}
+{"level":"info","message":"Section \"Go-to-Market Strategy\" generated — 650 words in 58728ms","timestamp":"11:19:48"}
+{"level":"info","message":"Generating section: Funding & Investor Opportunities","timestamp":"11:19:48"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 503","timestamp":"11:20:15"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 503","timestamp":"11:20:15"}
+{"level":"info","message":"Section \"Funding & Investor Opportunities\" generated — 599 words in 41623ms","timestamp":"11:20:30"}
+{"level":"info","message":"Generating section: Government Schemes & Incentives","timestamp":"11:20:30"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:20:31"}
+{"level":"info","message":"Section \"Government Schemes & Incentives\" generated — 537 words in 14664ms","timestamp":"11:20:44"}
+{"level":"info","message":"Generating section: Legal Considerations & Compliance","timestamp":"11:20:44"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:20:45"}
+{"level":"info","message":"Section \"Legal Considerations & Compliance\" generated — 614 words in 15392ms","timestamp":"11:21:00"}
+{"level":"info","message":"Generating section: Risk Assessment Matrix","timestamp":"11:21:00"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:21:01"}
+{"level":"info","message":"Section \"Risk Assessment Matrix\" generated — 560 words in 13842ms","timestamp":"11:21:14"}
+{"level":"info","message":"Generating section: Implementation Roadmap","timestamp":"11:21:14"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:21:15"}
+{"level":"warn","message":"RAG retrieval failed, falling back to in-memory store: AxiosError: Request failed with status code 400","timestamp":"11:21:15"}
+{"level":"info","message":"Section \"Implementation Roadmap\" generated — 605 words in 15353ms","timestamp":"11:21:29"}
+{"level":"info","message":"\n✅ Blueprint generated in 253.0s — 12 sections\n","timestamp":"11:21:29"}
+{"level":"info","message":"📄 Markdown blueprint saved: output\\blueprint-ai-startup-for-small-peaople-2026-07-15T05-51-29.md","timestamp":"11:21:29"}
+{"level":"info","message":"📦 JSON blueprint saved: output\\blueprint-ai-startup-for-small-peaople-2026-07-15T05-51-29.json","timestamp":"11:21:29"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"11:57:23"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"11:57:23"}
+{"level":"info","message":"  Model    : meta-llama/llama-3-3-70b-instruct","timestamp":"11:57:23"}
+{"level":"info","message":"  RAG Mode : In-Memory Store","timestamp":"11:57:23"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"11:57:25"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"11:57:25"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"11:57:25"}
+{"level":"info","message":"RAG Mode : In-Memory Knowledge Base","timestamp":"11:57:25"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"11:57:25"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"11:57:25"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"want to build ai startu for small people\"\n","timestamp":"11:57:25"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"11:57:25"}
+{"level":"info","message":"Section \"Executive Summary\" generated — 430 words in 10403ms","timestamp":"11:57:35"}
+{"level":"info","message":"Generating section: Business Model Canvas","timestamp":"11:57:35"}
+{"level":"info","message":"Section \"Business Model Canvas\" generated — 475 words in 10943ms","timestamp":"11:57:46"}
+{"level":"info","message":"Generating section: Target Market Analysis","timestamp":"11:57:46"}
+{"level":"info","message":"Section \"Target Market Analysis\" generated — 743 words in 18045ms","timestamp":"11:58:04"}
+{"level":"info","message":"Generating section: Competitor Analysis","timestamp":"11:58:04"}
+{"level":"info","message":"Section \"Competitor Analysis\" generated — 571 words in 14382ms","timestamp":"11:58:18"}
+{"level":"info","message":"Generating section: Revenue Model","timestamp":"11:58:18"}
+{"level":"info","message":"Section \"Revenue Model\" generated — 468 words in 10695ms","timestamp":"11:58:29"}
+{"level":"info","message":"Generating section: Estimated Budget & Financial Projections","timestamp":"11:58:29"}
+{"level":"info","message":"Section \"Estimated Budget & Financial Projections\" generated — 795 words in 20787ms","timestamp":"11:58:50"}
+{"level":"info","message":"Generating section: Go-to-Market Strategy","timestamp":"11:58:50"}
+{"level":"info","message":"Section \"Go-to-Market Strategy\" generated — 798 words in 18930ms","timestamp":"11:59:09"}
+{"level":"info","message":"Generating section: Funding & Investor Opportunities","timestamp":"11:59:09"}
+{"level":"info","message":"Section \"Funding & Investor Opportunities\" generated — 594 words in 15632ms","timestamp":"11:59:24"}
+{"level":"info","message":"Generating section: Government Schemes & Incentives","timestamp":"11:59:24"}
+{"level":"info","message":"Section \"Government Schemes & Incentives\" generated — 628 words in 15042ms","timestamp":"11:59:39"}
+{"level":"info","message":"Generating section: Legal Considerations & Compliance","timestamp":"11:59:39"}
+{"level":"info","message":"Section \"Legal Considerations & Compliance\" generated — 605 words in 14563ms","timestamp":"11:59:54"}
+{"level":"info","message":"Generating section: Risk Assessment Matrix","timestamp":"11:59:54"}
+{"level":"info","message":"Section \"Risk Assessment Matrix\" generated — 522 words in 11860ms","timestamp":"12:00:06"}
+{"level":"info","message":"Generating section: Implementation Roadmap","timestamp":"12:00:06"}
+{"level":"info","message":"Section \"Implementation Roadmap\" generated — 533 words in 13274ms","timestamp":"12:00:19"}
+{"level":"info","message":"\n✅ Blueprint generated in 174.7s — 12 sections\n","timestamp":"12:00:19"}
+{"level":"info","message":"📄 Markdown blueprint saved: output\\blueprint-want-to-build-ai-startu-for-small-people-2026-07-15T06-30-19.md","timestamp":"12:00:19"}
+{"level":"info","message":"📦 JSON blueprint saved: output\\blueprint-want-to-build-ai-startu-for-small-people-2026-07-15T06-30-19.json","timestamp":"12:00:19"}
+{"level":"info","message":"═══════════════════════════════════════════════════════════","timestamp":"13:26:28"}
+{"level":"info","message":"  IBM watsonx Startup Blueprint Generator — Web Server","timestamp":"13:26:28"}
+{"level":"info","message":"═══════════════════════════════════════════════════════════","timestamp":"13:26:28"}
+{"level":"info","message":"  Local   : http://localhost:3000","timestamp":"13:26:28"}
+{"level":"info","message":"  API     : http://localhost:3000/api","timestamp":"13:26:28"}
+{"level":"info","message":"  Health  : http://localhost:3000/api/health","timestamp":"13:26:28"}
+{"level":"info","message":"═══════════════════════════════════════════════════════════","timestamp":"13:26:28"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"13:30:32"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"13:30:32"}
+{"level":"info","message":"  Model    : meta-llama/llama-3-3-70b-instruct","timestamp":"13:30:32"}
+{"level":"info","message":"  RAG Mode : In-Memory Store","timestamp":"13:30:32"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"13:30:33"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"13:30:33"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"13:30:33"}
+{"level":"info","message":"RAG Mode : In-Memory Knowledge Base","timestamp":"13:30:33"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"13:30:33"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"13:30:33"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai bisuness for small people around me\"\n","timestamp":"13:30:33"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"13:30:33"}
+{"level":"info","message":"Section \"Executive Summary\" generated — 386 words in 9400ms","timestamp":"13:30:42"}
+{"level":"info","message":"Generating section: Business Model Canvas","timestamp":"13:30:42"}
+{"level":"info","message":"Section \"Business Model Canvas\" generated — 527 words in 11970ms","timestamp":"13:30:54"}
+{"level":"info","message":"Generating section: Target Market Analysis","timestamp":"13:30:54"}
+{"level":"info","message":"Section \"Target Market Analysis\" generated — 788 words in 18830ms","timestamp":"13:31:13"}
+{"level":"info","message":"Generating section: Competitor Analysis","timestamp":"13:31:13"}
+{"level":"info","message":"Section \"Competitor Analysis\" generated — 638 words in 14852ms","timestamp":"13:31:28"}
+{"level":"info","message":"Generating section: Revenue Model","timestamp":"13:31:28"}
+{"level":"info","message":"Section \"Revenue Model\" generated — 504 words in 13004ms","timestamp":"13:31:41"}
+{"level":"info","message":"Generating section: Estimated Budget & Financial Projections","timestamp":"13:31:41"}
+{"level":"info","message":"Section \"Estimated Budget & Financial Projections\" generated — 558 words in 17204ms","timestamp":"13:31:58"}
+{"level":"info","message":"Generating section: Go-to-Market Strategy","timestamp":"13:31:58"}
+{"level":"info","message":"Section \"Go-to-Market Strategy\" generated — 681 words in 16078ms","timestamp":"13:32:14"}
+{"level":"info","message":"Generating section: Funding & Investor Opportunities","timestamp":"13:32:14"}
+{"level":"info","message":"Section \"Funding & Investor Opportunities\" generated — 517 words in 13402ms","timestamp":"13:32:27"}
+{"level":"info","message":"Generating section: Government Schemes & Incentives","timestamp":"13:32:27"}
+{"level":"info","message":"Section \"Government Schemes & Incentives\" generated — 476 words in 13241ms","timestamp":"13:32:41"}
+{"level":"info","message":"Generating section: Legal Considerations & Compliance","timestamp":"13:32:41"}
+{"level":"info","message":"Section \"Legal Considerations & Compliance\" generated — 607 words in 14856ms","timestamp":"13:32:56"}
+{"level":"info","message":"Generating section: Risk Assessment Matrix","timestamp":"13:32:56"}
+{"level":"info","message":"Section \"Risk Assessment Matrix\" generated — 627 words in 13654ms","timestamp":"13:33:09"}
+{"level":"info","message":"Generating section: Implementation Roadmap","timestamp":"13:33:09"}
+{"level":"info","message":"Section \"Implementation Roadmap\" generated — 921 words in 22117ms","timestamp":"13:33:31"}
+{"level":"info","message":"\n✅ Blueprint generated in 178.9s — 12 sections\n","timestamp":"13:33:32"}
+{"level":"info","message":"📄 Markdown blueprint saved: output\\blueprint-ai-bisuness-for-small-people-around-me-2026-07-15T08-03-32.md","timestamp":"13:33:32"}
+{"level":"info","message":"📦 JSON blueprint saved: output\\blueprint-ai-bisuness-for-small-people-around-me-2026-07-15T08-03-32.json","timestamp":"13:33:32"}
+{"level":"info","message":"[job-1784102432395-yze0a] Blueprint generation complete.","timestamp":"13:33:32"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"13:36:07"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"13:36:07"}
+{"level":"info","message":"  Model    : meta-llama/llama-3-3-70b-instruct","timestamp":"13:36:07"}
+{"level":"info","message":"  RAG Mode : In-Memory Store","timestamp":"13:36:07"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"13:36:08"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"13:36:08"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"13:36:08"}
+{"level":"info","message":"RAG Mode : In-Memory Knowledge Base","timestamp":"13:36:08"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"13:36:08"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"13:36:08"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"want to develop AI business for small people\"\n","timestamp":"13:36:08"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"13:36:08"}
+{"level":"info","message":"Section \"Executive Summary\" generated — 259 words in 6940ms","timestamp":"13:36:15"}
+{"level":"info","message":"Generating section: Business Model Canvas","timestamp":"13:36:15"}
+{"level":"info","message":"Section \"Business Model Canvas\" generated — 549 words in 13106ms","timestamp":"13:36:28"}
+{"level":"info","message":"Generating section: Target Market Analysis","timestamp":"13:36:28"}
+{"level":"info","message":"Section \"Target Market Analysis\" generated — 658 words in 15723ms","timestamp":"13:36:44"}
+{"level":"info","message":"Generating section: Competitor Analysis","timestamp":"13:36:44"}
+{"level":"info","message":"Section \"Competitor Analysis\" generated — 644 words in 15754ms","timestamp":"13:37:00"}
+{"level":"info","message":"Generating section: Revenue Model","timestamp":"13:37:00"}
+{"level":"info","message":"Section \"Revenue Model\" generated — 610 words in 15295ms","timestamp":"13:37:15"}
+{"level":"info","message":"Generating section: Estimated Budget & Financial Projections","timestamp":"13:37:15"}
+{"level":"info","message":"Section \"Estimated Budget & Financial Projections\" generated — 614 words in 16836ms","timestamp":"13:37:32"}
+{"level":"info","message":"Generating section: Go-to-Market Strategy","timestamp":"13:37:32"}
+{"level":"info","message":"Section \"Go-to-Market Strategy\" generated — 627 words in 15803ms","timestamp":"13:37:48"}
+{"level":"info","message":"Generating section: Funding & Investor Opportunities","timestamp":"13:37:48"}
+{"level":"info","message":"Section \"Funding & Investor Opportunities\" generated — 605 words in 15108ms","timestamp":"13:38:03"}
+{"level":"info","message":"Generating section: Government Schemes & Incentives","timestamp":"13:38:03"}
+{"level":"info","message":"Section \"Government Schemes & Incentives\" generated — 690 words in 16207ms","timestamp":"13:38:19"}
+{"level":"info","message":"Generating section: Legal Considerations & Compliance","timestamp":"13:38:19"}
+{"level":"info","message":"Section \"Legal Considerations & Compliance\" generated — 714 words in 16587ms","timestamp":"13:38:35"}
+{"level":"info","message":"Generating section: Risk Assessment Matrix","timestamp":"13:38:35"}
+{"level":"info","message":"Section \"Risk Assessment Matrix\" generated — 630 words in 14444ms","timestamp":"13:38:50"}
+{"level":"info","message":"Generating section: Implementation Roadmap","timestamp":"13:38:50"}
+{"level":"info","message":"Section \"Implementation Roadmap\" generated — 645 words in 14406ms","timestamp":"13:39:04"}
+{"level":"info","message":"\n✅ Blueprint generated in 176.3s — 12 sections\n","timestamp":"13:39:04"}
+{"level":"info","message":"📄 Markdown blueprint saved: output\\blueprint-want-to-develop-ai-business-for-small-pe-2026-07-15T08-09-04.md","timestamp":"13:39:04"}
+{"level":"info","message":"📦 JSON blueprint saved: output\\blueprint-want-to-develop-ai-business-for-small-pe-2026-07-15T08-09-04.json","timestamp":"13:39:04"}
+{"level":"info","message":"[job-1784102767693-pxf8i] Blueprint generation complete.","timestamp":"13:39:04"}
+{"level":"info","message":"Initializing Startup Blueprint Agent...","timestamp":"13:49:52"}
+{"level":"info","message":"  Persona  : StartupGPT (Expert Startup Strategist and Business Analyst)","timestamp":"13:49:52"}
+{"level":"info","message":"  Model    : meta-llama/llama-3-3-70b-instruct","timestamp":"13:49:52"}
+{"level":"info","message":"  RAG Mode : In-Memory Store","timestamp":"13:49:52"}
+{"level":"info","message":"  watsonx  : ✅ Connected to IBM watsonx.ai — 15 models available","timestamp":"13:49:54"}
+{"level":"info","message":"Initializing in-memory RAG store with 13 documents...","timestamp":"13:49:54"}
+{"level":"info","message":"In-memory RAG store initialized.","timestamp":"13:49:54"}
+{"level":"info","message":"RAG Mode : In-Memory Knowledge Base","timestamp":"13:49:54"}
+{"level":"info","message":"  RAG      : ✅ Knowledge base ready","timestamp":"13:49:54"}
+{"level":"info","message":"Agent initialized successfully.\n","timestamp":"13:49:54"}
+{"level":"info","message":"\n🚀 Starting Startup Blueprint generation for: \"ai in healthcare for poor people\"\n","timestamp":"13:49:54"}
+{"level":"info","message":"Generating section: Executive Summary","timestamp":"13:49:54"}
+{"level":"info","message":"Section \"Executive Summary\" generated — 352 words in 8677ms","timestamp":"13:50:03"}
+{"level":"info","message":"Generating section: Business Model Canvas","timestamp":"13:50:03"}
+{"level":"info","message":"Section \"Business Model Canvas\" generated — 530 words in 11947ms","timestamp":"13:50:15"}
+{"level":"info","message":"Generating section: Target Market Analysis","timestamp":"13:50:15"}
+{"level":"info","message":"Section \"Target Market Analysis\" generated — 596 words in 15085ms","timestamp":"13:50:30"}
+{"level":"info","message":"Generating section: Competitor Analysis","timestamp":"13:50:30"}
+{"level":"info","message":"Section \"Competitor Analysis\" generated — 643 words in 16571ms","timestamp":"13:50:46"}
+{"level":"info","message":"Generating section: Revenue Model","timestamp":"13:50:46"}
+{"level":"info","message":"Section \"Revenue Model\" generated — 616 words in 15400ms","timestamp":"13:51:02"}
+{"level":"info","message":"Generating section: Estimated Budget & Financial Projections","timestamp":"13:51:02"}
+{"level":"info","message":"Section \"Estimated Budget & Financial Projections\" generated — 576 words in 14913ms","timestamp":"13:51:17"}
+{"level":"info","message":"Generating section: Go-to-Market Strategy","timestamp":"13:51:17"}
+{"level":"info","message":"Section \"Go-to-Market Strategy\" generated — 1040 words in 26020ms","timestamp":"13:51:43"}
+{"level":"info","message":"Generating section: Funding & Investor Opportunities","timestamp":"13:51:43"}
+{"level":"info","message":"Section \"Funding & Investor Opportunities\" generated — 632 words in 15551ms","timestamp":"13:51:58"}
+{"level":"info","message":"Generating section: Government Schemes & Incentives","timestamp":"13:51:58"}
+{"level":"info","message":"Section \"Government Schemes & Incentives\" generated — 660 words in 17603ms","timestamp":"13:52:16"}
+{"level":"info","message":"Generating section: Legal Considerations & Compliance","timestamp":"13:52:16"}
+{"level":"info","message":"Section \"Legal Considerations & Compliance\" generated — 787 words in 18154ms","timestamp":"13:52:34"}
+{"level":"info","message":"Generating section: Risk Assessment Matrix","timestamp":"13:52:34"}
+{"level":"info","message":"Section \"Risk Assessment Matrix\" generated — 814 words in 17054ms","timestamp":"13:52:51"}
+{"level":"info","message":"Generating section: Implementation Roadmap","timestamp":"13:52:51"}
+{"level":"info","message":"Section \"Implementation Roadmap\" generated — 778 words in 18638ms","timestamp":"13:53:10"}
+{"level":"info","message":"\n✅ Blueprint generated in 195.9s — 12 sections\n","timestamp":"13:53:10"}
+{"level":"info","message":"📄 Markdown blueprint saved: output\\blueprint-ai-in-healthcare-for-poor-people-2026-07-15T08-23-10.md","timestamp":"13:53:10"}
+{"level":"info","message":"📦 JSON blueprint saved: output\\blueprint-ai-in-healthcare-for-poor-people-2026-07-15T08-23-10.json","timestamp":"13:53:10"}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBM watsonx Startup Blueprint Generator</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<!-- ── Header ───────────────────────────────────────────────────────────────── -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <span class="brand-icon">🚀</span>
+      <div>
+        <span class="brand-title">Startup Blueprint Generator</span>
+        <span class="brand-sub">Powered by IBM watsonx &amp; Granite AI</span>
+      </div>
+    </div>
+    <div class="header-badges">
+      <span class="badge">IBM Granite</span>
+      <span class="badge">RAG</span>
+      <span class="badge badge-green" id="status-badge">Checking...</span>
+    </div>
+  </div>
+</header>
+
+<!-- ── Main ─────────────────────────────────────────────────────────────────── -->
+<main class="main-layout">
+
+  <!-- Left column: Form -->
+  <section class="form-panel" id="form-panel">
+    <h2 class="panel-title">Tell us about your startup</h2>
+
+    <form id="blueprint-form" novalidate>
+
+      <div class="field">
+        <label for="idea">Startup Idea <span class="req">*</span></label>
+        <textarea id="idea" name="idea" rows="4"
+          placeholder="Describe your startup idea in detail. What product or service are you building? What problem does it solve?"
+          maxlength="2000" required></textarea>
+        <div class="field-hint"><span id="idea-count">0</span> / 2000 characters</div>
+        <div class="field-error" id="idea-error"></div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="industry">Industry <span class="req">*</span></label>
+          <select id="industry" name="industry" required>
+            <option value="">Select industry…</option>
+            <option value="FinTech">FinTech</option>
+            <option value="HealthTech">HealthTech</option>
+            <option value="EdTech">EdTech</option>
+            <option value="AgriTech">AgriTech</option>
+            <option value="CleanTech / GreenTech">CleanTech / GreenTech</option>
+            <option value="E-Commerce">E-Commerce</option>
+            <option value="SaaS / B2B Software">SaaS / B2B Software</option>
+            <option value="AI / Machine Learning">AI / Machine Learning</option>
+            <option value="Web3 / Blockchain">Web3 / Blockchain</option>
+            <option value="DeepTech / Hardware">DeepTech / Hardware</option>
+            <option value="FoodTech">FoodTech</option>
+            <option value="PropTech">PropTech</option>
+            <option value="LogTech / Supply Chain">LogTech / Supply Chain</option>
+            <option value="Media / Content">Media / Content</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="targetGeography">Target Market <span class="req">*</span></label>
+          <select id="targetGeography" name="targetGeography" required>
+            <option value="">Select market…</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Europe (EU)">Europe (EU)</option>
+            <option value="Southeast Asia">Southeast Asia</option>
+            <option value="Global">Global</option>
+            <option value="Africa">Africa</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="stage">Current Stage</label>
+          <select id="stage" name="stage">
+            <option value="idea">💡 Idea stage</option>
+            <option value="mvp">🛠️ Building MVP</option>
+            <option value="early-revenue">📈 Early revenue</option>
+            <option value="growth">🚀 Growth stage</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="fundingStage">Funding Status</label>
+          <select id="fundingStage" name="fundingStage">
+            <option value="bootstrapped">Self-funded</option>
+            <option value="pre-seed" selected>Looking for Pre-seed</option>
+            <option value="seed">Looking for Seed</option>
+            <option value="series-a">Looking for Series A</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="problemStatement">Problem Statement <span class="field-opt">(optional)</span></label>
+        <textarea id="problemStatement" name="problemStatement" rows="2"
+          placeholder="What specific pain point does your startup address?"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="founderBackground">Founder Background <span class="field-opt">(optional)</span></label>
+        <input type="text" id="founderBackground" name="founderBackground"
+          placeholder="e.g. Ex-Goldman Sachs, IIT graduate, 5 yrs fintech experience" />
+      </div>
+
+      <div class="field">
+        <label for="existingTraction">Existing Traction <span class="field-opt">(optional)</span></label>
+        <input type="text" id="existingTraction" name="existingTraction"
+          placeholder="e.g. 500 beta users, 2 pilot agreements signed, ₹0 revenue" />
+      </div>
+
+      <div class="field">
+        <label for="additionalContext">Additional Context <span class="field-opt">(optional)</span></label>
+        <textarea id="additionalContext" name="additionalContext" rows="2"
+          placeholder="Anything else the AI should know about your startup…"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" id="submit-btn" class="btn btn-primary">
+          <span id="submit-label">Generate Blueprint</span>
+          <span id="submit-spinner" class="spinner hidden" aria-hidden="true"></span>
+        </button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Right column: Output -->
+  <section class="output-panel" id="output-panel">
+
+    <!-- Empty state -->
+    <div class="empty-state" id="empty-state">
+      <div class="empty-icon">📋</div>
+      <p class="empty-title">Your blueprint will appear here</p>
+      <p class="empty-sub">Fill in the form and click <strong>Generate Blueprint</strong> to get started. The AI will create a full 12-section startup blueprint in under 3 minutes.</p>
+      <div class="feature-chips">
+        <span class="chip">Executive Summary</span>
+        <span class="chip">Business Model Canvas</span>
+        <span class="chip">Market Analysis</span>
+        <span class="chip">Competitor Analysis</span>
+        <span class="chip">Revenue Model</span>
+        <span class="chip">Budget Estimate</span>
+        <span class="chip">Go-to-Market Strategy</span>
+        <span class="chip">Funding Opportunities</span>
+        <span class="chip">Govt Schemes</span>
+        <span class="chip">Legal Considerations</span>
+        <span class="chip">Risk Assessment</span>
+        <span class="chip">Implementation Roadmap</span>
+      </div>
+    </div>
+
+    <!-- Progress state -->
+    <div class="progress-state hidden" id="progress-state">
+      <div class="progress-header">
+        <span class="progress-icon">⚙️</span>
+        <div>
+          <p class="progress-title">Generating your blueprint…</p>
+          <p class="progress-subtitle" id="progress-subtitle">Connecting to IBM watsonx.ai</p>
+        </div>
+      </div>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar" id="progress-bar" style="width:0%"></div>
+      </div>
+      <div class="progress-meta">
+        <span id="progress-pct">0%</span>
+        <span id="progress-sections">0 / 12 sections</span>
+        <span id="progress-eta"></span>
+      </div>
+      <div class="section-log" id="section-log"></div>
+    </div>
+
+    <!-- Result state -->
+    <div class="result-state hidden" id="result-state">
+      <div class="result-toolbar">
+        <h2 class="result-title" id="result-title">Blueprint Ready</h2>
+        <div class="result-actions">
+          <button class="btn btn-sm" id="copy-md-btn" title="Copy Markdown">Copy Markdown</button>
+          <button class="btn btn-sm btn-outline" id="download-md-btn">Download .md</button>
+          <button class="btn btn-sm btn-outline" id="download-json-btn">Download JSON</button>
+          <button class="btn btn-sm btn-ghost" id="new-btn">New Blueprint</button>
+        </div>
+      </div>
+
+      <!-- Section tabs -->
+      <div class="tabs-wrap">
+        <nav class="tabs" id="section-tabs" role="tablist" aria-label="Blueprint sections"></nav>
+      </div>
+
+      <!-- Rendered section content -->
+      <article class="blueprint-content markdown-body" id="blueprint-content"></article>
+    </div>
+
+    <!-- Error state -->
+    <div class="error-state hidden" id="error-state">
+      <div class="error-icon">⚠️</div>
+      <p class="error-title">Generation failed</p>
+      <p class="error-message" id="error-message"></p>
+      <button class="btn btn-outline" id="retry-btn">Try Again</button>
+    </div>
+
+  </section>
+</main>
+
+<!-- ── Toast notification ─────────────────────────────────────────────────── -->
+<div id="toast" class="toast hidden" role="alert"></div>
+
+<footer class="site-footer">
+  <p>IBM watsonx Startup Blueprint Generator &middot; Powered by IBM Granite AI &amp; RAG</p>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
